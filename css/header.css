@@ -1,0 +1,36 @@
+.header {
+  /* if fixed */
+  /* position: fixed;
+  width: 100%;
+  left: 0;
+  top: 36px;
+  padding: 20px 20px;
+  background-color: white;
+  border-bottom: 1px solid #f7f7f7; */
+  /* else */
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .header__header-column {
+  display: flex;
+  align-items: center;
+}
+
+.header .header__back-btn {
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.header .header__title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.header .header__icon {
+  font-size: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}

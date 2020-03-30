@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chat | Kakao Clone</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
     <div class="status-bar">
@@ -35,42 +36,47 @@
       </div>
     </header>
     <main class="chats">
-      <ul class="chat__list">
-        <li class="chat__chat chat">
+      <ul class="chats__list">
+        <li class="chats__chat chat">
           <a href="./chat.html">
-            <div class="chat__column">
-              <img class="chat__avatar g-avatar" src="./images/avatar.jpg" alt="" />
-              <div class="chat__content">
-                <span class="chat__username">Yonghan</span>
-                <span class="chat__preview">Going home</span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img class="m-avatar friend__avatar" src="./images/avatar.jpg" alt="" />
+                <div class="friend__content">
+                  <span class="friend__name">Yonghan</span>
+                  <span class="friend__bottom-text">Going home</span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <span class="chat__timestamp">
+                  Yesterday
+                </span>
               </div>
             </div>
           </a>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
         </li>
       </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__list-item">
-          <a href="./friends.html" class="nav__list-link">
+          <a class="nav__list-link" href="./friends.html">
             <i class="far fa-user"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="./index.html" class="nav__list-link">
+          <a class="nav__list-link" href="./index.html">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="./find.html" class="nav__list-link">
+          <a class="nav__list-link" href="./find.html">
             <i class="fas fa-search"></i>
           </a>
         </li>
         <li class="nav__list-item">
-          <a href="./more.html" class="nav__list-link">
+          <a class="nav__list-link" href="./more.html">
             <i class="fas fa-ellipsis-h"></i>
           </a>
         </li>
