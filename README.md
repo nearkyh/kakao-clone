@@ -1,6 +1,6 @@
 # kakao-clone
 
-KakaoTalk Desktop App
+[KakaoTalk Desktop App](https://yonghankim.github.io/kakao-clone/)
 
 ## Useful tools
 
